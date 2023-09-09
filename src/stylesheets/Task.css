@@ -1,0 +1,52 @@
+.tarea-contenedor{
+    margin: 10px 25px 10px 25px;
+    display: flex;
+    width: 90%;
+    min-height: 65px;
+    border: 2px solid black;
+    background-color: antiquewhite;
+    color: white;
+    font-weight: bold;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.tarea-contenedor:nth-child(3n+1){
+    background-color: #1b1b32;
+}
+.tarea-contenedor:nth-child(3n+2){
+    background-color: #2a2a40;
+}
+.tarea-contenedor:nth-child(3n+3){
+    background-color: #3b3b4f;
+}
+
+
+.tarea-nombre{
+    padding-left: 15px;
+    justify-content: left;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    overflow-wrap: anywhere;
+
+}
+.tarea-contenedor-iconos{
+    padding-right: 5px;
+}
+
+
+.tarea-icono{
+    margin: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+.tarea-contenedor.completada{
+    background-color: purple;
+    text-decoration: line-through;
+
+}
